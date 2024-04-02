@@ -1,0 +1,11 @@
+{
+    "name": "org/yaml_editor",
+    "type": "drupal-drush",
+    "extra": {
+        "drush": {
+            "services": {
+                "drush.services.yml": "^10"
+            }
+        }
+    }
+}

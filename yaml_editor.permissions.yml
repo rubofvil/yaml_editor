@@ -1,0 +1,4 @@
+administer yaml_editor configuration:
+  title: 'Administer yaml_editor configuration'
+  description: 'Optional description.'
+  restrict access: true

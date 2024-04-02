@@ -1,0 +1,5 @@
+services:
+  yaml_editor.commands:
+    class: \Drupal\yaml_editor\Commands\YamlEditorCommands
+    tags:
+      - { name: drush.command }

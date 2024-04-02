@@ -1,0 +1,15 @@
+yaml_editor.example:
+  path: '/yaml-editor/example'
+  defaults:
+    _title: 'Example'
+    _controller: '\Drupal\yaml_editor\Controller\YamlEditorController::build'
+  requirements:
+    _permission: 'access content'
+
+yaml_editor.settings_form:
+  path: '/admin/config/system/yaml-editor'
+  defaults:
+    _title: 'yaml_editor settings'
+    _form: 'Drupal\yaml_editor\Form\SettingsForm'
+  requirements:
+    _permission: 'administer yaml_editor configuration'

@@ -1,0 +1,6 @@
+services:
+  yaml_editor.event_subscriber:
+    class: Drupal\yaml_editor\EventSubscriber\YamlEditorSubscriber
+    arguments: ['@messenger']
+    tags:
+      - { name: event_subscriber }

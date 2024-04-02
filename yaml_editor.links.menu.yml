@@ -1,0 +1,6 @@
+yaml_editor.settings_form:
+  title: yaml_editor
+  description: Configure yaml_editor.
+  parent: system.admin_config_system
+  route_name: yaml_editor.settings_form
+  weight: 10
